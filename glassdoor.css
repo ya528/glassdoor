@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px  20px;
+
+}
+.logo{
+      color: rgb(38, 212, 154);
+}
+.navbar a{
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+
+}
+  
+.navbar a:hover {
+                 background-color: #575757;
+                 border-radius:5px;
+
+}
+
+.menu {
+     display: flex;
+}
+
+button{
+    color: rgb(253, 249, 249);
+    background-color: rgba(3, 3, 96, 0.829);
+}
+h2{
+    color: rgb(30, 235, 177);
+}
+.login-btn{
+           display: block;
+           width: 200px;
+           padding: 10px;
+           margin: 10px auto;
+           text-align: center;
+           border-radius: 5px;
+           color: rgb(49, 215, 168);
+           font-size: 16px;
+           text-decoration: none;
+
+}
+
+.microsoft { background-color: #2f2f2f; }
+
+.google{ background-color: #000000; }
+
+.apple{ background-color: #000000; }
+
+.email{ background-color: #000000;}
+
+.container{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           gap: 20px;
+}
+
+.image{
+       width:300px;
+       height: auto;
+}
+.login-buttons {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+}
+.login-btn{
+            display:block;
+            width: 200px;
+            padding:10px;
+            margin:10px auto;
+            text-align: center ;
+            border-radius: 5px;
+            color:white;
+            font-size: 16px;
+            text-decoration: none;
+}
